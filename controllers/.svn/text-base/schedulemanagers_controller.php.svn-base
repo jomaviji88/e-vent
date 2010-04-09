@@ -1,0 +1,86 @@
+<?php
+/**
+ * Controller for full administration of users 
+ *
+ * This file will render views from views/usermanager/
+ *
+ * PHP versions 4 and 5
+ *
+ * Copyright 2008, Aran Johnson http://www.aranworld.com
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright		Copyright 2008, Aran Johnson http://www.aranworld.com
+ * @version			1.0
+ * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+class SchedulemanagersController extends AppController
+{
+	var $name = 'Schedulemanagers';
+	var $uses = array('Schedule');
+	
+
+	function add()
+	{
+		$this->loadModel('Activity');
+		$optionsStatus = array('open'=> 'Abierto', 'closed' => "Cerrado");
+		$optionsSites = array('0'=> 'Salon de Congresos', '1' => "Salon");
+		$optionsActivities = $this->Activity->find('list',array('fields' => 'short_name'));
+        $this->set(compact('optionsStatus', 'optionsSites', 'optionsActivities'));
+        if (!empty($this->data)) {   
+            if ($this->Schedule->save($this->data)) {
+            	$lastId = $this->Schedule->getLastInsertId();
+            	$this->redirect(array('action' => 'view', $lastId));
+                
+            } else {
+				
+			}
+        }
+        
+	}
+
+	function delete( $id = null)
+	{
+	    $this->User->id = $id;
+		$this->data = $this->User->read();
+	    if( !( isset($this->params['url']['confirm']) ) ){
+        	$this->flash( 'Click below to confirm deletion of '.$this->data['User']['name'].'.', '/usermanager/delete/'.$id.'/?confirm=1', 120 );		
+    	} else {
+    		if( $this->User->del($id) ){
+				$this->flash( $this->data['User']['name'].' has been deleted.', '/usermanager/index' );
+			} 
+    	}
+	}
+
+	function edit($id = null)
+	{ 
+		if (empty($this->data)) {
+	        $this->Schedule->id = $id;
+	        $this->data = $this->Schedule->read();
+	    } else {
+	        if ($this->Schedule->save($this->data)) {
+	            $this->flash('Tus cambios han sido guardados.','/activitymanager/view/'.$this->data['Schedule']['id'] );
+	        }
+	    }
+
+	}
+
+	function index()
+	{
+		$activities = $this->Schedule->find('list',array('fields' => 'Schedule.short_name'));
+		$this->set(compact('activities'));
+	}
+	
+	function view($id = null)
+	{
+
+        $this->Schedule->id = $id;
+        $activity = $this->Schedule->read();
+        $this->pageTitle = 'Actividades';
+        $this->set(compact('activity'));
+		
+	}	    
+}
+?>

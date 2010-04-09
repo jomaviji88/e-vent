@@ -1,0 +1,773 @@
+2010-03-14 01:06:55 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: SecretRecipes in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 01:06:55 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:16:57 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 4]
+2010-03-14 03:16:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 15]
+2010-03-14 03:16:58 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 24]
+2010-03-14 03:17:08 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 4]
+2010-03-14 03:17:08 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 15]
+2010-03-14 03:17:08 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 24]
+2010-03-14 03:17:25 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 4]
+2010-03-14 03:17:25 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 15]
+2010-03-14 03:17:25 Warning: Warning (2): Division by zero in [APP/views/activities/index.ctp, line 24]
+2010-03-14 03:18:21 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:18:44 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:19:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:19:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:19:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:19:52 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:20:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:20:01 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:20:02 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:20:02 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:20:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:20:23 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:20:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:20:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:20:43 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:20:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activities/index.ctp, line 3]
+2010-03-14 03:36:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Activity.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 03:36:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:37:03 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:38:50 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:38:50 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanager/index.ctp, line 17]
+2010-03-14 03:39:02 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:39:02 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanager/index.ctp, line 17]
+2010-03-14 03:40:01 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:40:01 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanager/index.ctp, line 17]
+2010-03-14 03:40:16 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 03:40:16 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanager/index.ctp, line 17]
+2010-03-14 03:40:37 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:09:20 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:11:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:11:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:11:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:11:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:11:57 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:04 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:13 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:23 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:24 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:31 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:36 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:12:41 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:45 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:46 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:48 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:12:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:13:00 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:13:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:13:35 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:13:43 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:13:46 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:49 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:13:59 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:14:02 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:14:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 04:14:21 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 04:14:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 06:56:59 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 06:56:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 06:57:01 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [username] => elfrank
+            [name] => Francisco Ávila Beltrán
+            [email] => francisco.avila@congresoisc.com
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 06:57:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 06:57:31 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'slots' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 06:57:57 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'available' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 06:59:04 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'slots' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 07:09:39 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'slots' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 07:09:58 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'slots' cannot be null</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 08:19:20 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:19:20 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:19:30 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:19:30 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:19:32 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:19:32 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:21:45 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:21:45 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:21:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:21:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:23:19 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:23:19 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:23:21 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:23:21 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:32 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:32 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:34 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:25:34 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:26:39 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:26:39 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:13 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:13 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:26 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:28:26 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:29:11 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:29:11 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:30:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:30:47 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:03 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:03 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:05 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:06 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:06 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:07 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:07 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:08 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: activitymanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:32:08 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: schedulemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 08:36:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 08:39:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 08:44:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Activity.active' in 'where clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 08:48:00 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:33:17 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:33:26 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:33:36 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:45:28 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:45:45 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:46:35 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 14:46:48 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 15:58:55 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 15:58:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 15:58:55 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 15:58:56 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 15:59:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 15:59:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:02:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:02:38 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 16:02:42 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:02:51 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:02:51 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 16:03:19 Warning: Warning (2): mysql_connect() [<a href='http://php.net/function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 454]
+2010-03-14 16:03:19 Warning: Warning (2): mysql_select_db(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 460]
+2010-03-14 16:03:19 Warning: Warning (2): mysql_query(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 500]
+2010-03-14 16:03:19 Warning: Warning (2): mysql_get_server_info(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 468]
+2010-03-14 16:03:20 Warning: Warning (2): mysql_connect() [<a href='http://php.net/function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 454]
+2010-03-14 16:03:20 Warning: Warning (2): mysql_select_db(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 460]
+2010-03-14 16:03:20 Warning: Warning (2): mysql_query(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 500]
+2010-03-14 16:03:20 Warning: Warning (2): mysql_get_server_info(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 468]
+2010-03-14 16:03:22 Warning: Warning (2): mysql_connect() [<a href='http://php.net/function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 454]
+2010-03-14 16:03:22 Warning: Warning (2): mysql_select_db(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 460]
+2010-03-14 16:03:22 Warning: Warning (2): mysql_query(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 500]
+2010-03-14 16:03:22 Warning: Warning (2): mysql_get_server_info(): supplied argument is not a valid MySQL-Link resource in [CORE/cake/libs/model/datasources/dbo/dbo_mysql.php, line 468]
+2010-03-14 16:03:41 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:03:45 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'order clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 16:03:45 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 16:07:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 16:08:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 16:09:16 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 17]
+2010-03-14 17:06:57 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Activity.contenttype_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:06:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 14]
+2010-03-14 17:09:10 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Activity.schedule_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:09:10 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 14]
+2010-03-14 17:11:41 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:13:13 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:20:09 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.place' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:20:09 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/datasources/dbo_source.php, line 920]
+2010-03-14 17:20:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:22:36 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 17:32:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 18:11:19 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/controllers/activitymanagers_controller.php, line 81]
+2010-03-14 18:11:27 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/controllers/activitymanagers_controller.php, line 81]
+2010-03-14 18:47:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:47:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:47:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:47:59 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:48:00 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:48:01 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 18:48:28 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 19:10:35 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 19:10:37 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-14 19:42:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 19:43:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 19:43:29 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 20:17:39 Warning: Warning (512): Auth::startup() - Attempted access of un-mapped action "profile" in controller "usermanager" in [CORE/cake/libs/controller/components/auth.php, line 489]
+2010-03-14 20:17:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 20:20:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Userprofile.user_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 20:20:52 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/usermanager/index.ctp, line 14]
+2010-03-14 20:33:50 Warning: Warning (512): Auth::startup() - Attempted access of un-mapped action "profile" in controller "usermanager" in [CORE/cake/libs/controller/components/auth.php, line 489]
+2010-03-14 20:33:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 21:13:07 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.state_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 21:16:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [User] => Array
+        (
+            [id] => 1
+            [name] => 
+            [username] => elfrank
+            [email] => francisco.avila@congresoisc.com
+            [registered] => 0
+            [group_id] => 3
+            [active] => 1
+            [created] => 0000-00-00 00:00:00
+            [modified] => 2010-03-14 01:01:54
+        )
+
+)
+
+Aco: Usermanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:16:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 21:17:15 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:17:19 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:17:28 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:17:30 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:17:37 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:18:46 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:18:49 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:19:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:19:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:20:34 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:20:43 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:20:52 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:20:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 21:20:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Usermanager in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:21:16 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 21:48:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/cake/cake/basics.php:109) in [CORE/cake/libs/controller/controller.php, line 647]
+2010-03-14 21:52:54 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:53:08 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:53:46 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:54:00 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:54:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:55:02 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 21:59:53 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 22:00:06 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Userprofiles in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-14 22:06:29 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '' for key 'username'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-14 22:07:37 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '' for key 'username'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 00:12:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 00:19:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-16 00:20:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-16 00:22:55 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/activitymanagers/index.ctp, line 13]
+2010-03-16 00:29:29 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 00:33:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Schedule.short_name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 00:33:54 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:34:06 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:34:23 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:34:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:36:20 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:37:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/index.ctp, line 17]
+2010-03-16 00:54:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:54:50 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:55:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:55:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 14]
+2010-03-16 00:55:33 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:55:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:56:06 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:56:11 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 8]
+2010-03-16 00:56:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 10]
+2010-03-16 00:56:53 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 10]
+2010-03-16 00:56:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 10]
+2010-03-16 00:57:08 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 10]
+2010-03-16 00:57:37 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/schedulemanagers/view.ctp, line 10]
+2010-03-16 01:10:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'SchedulesUser.userprofile_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 01:11:14 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'SchedulesUser.userprofile_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 01:11:40 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'SchedulesUser.SchedulesUsers.schedule_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 01:11:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'SchedulesUser.userprofile_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 01:12:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'SchedulesUser.userprofile_id' in 'on clause'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 02:37:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/controllers/activitymanagers_controller.php, line 16]
+2010-03-16 02:37:56 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/controllers/activitymanagers_controller.php, line 17]
+2010-03-16 02:55:28 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Teammanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-16 03:02:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/index.ctp, line 15]
+2010-03-16 03:05:40 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/view.ctp, line 17]
+2010-03-16 03:05:44 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/view.ctp, line 17]
+2010-03-16 03:05:59 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/view.ctp, line 17]
+2010-03-16 03:06:25 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/view.ctp, line 17]
+2010-03-16 03:06:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/teammanagers/view.ctp, line 17]
+2010-03-16 04:58:41 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Codemanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-16 05:04:40 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:05:23 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:06:08 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:06:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:06:55 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:07:18 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:07:48 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:08:12 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Coupon.name' in 'field list'</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:08:33 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'users` AS `User`   WHERE 1 = 1' at line 1</span> in [CORE/cake/libs/model/datasources/dbo_source.php, line 527]
+2010-03-16 05:24:35 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/codemanagers/index.ctp, line 14]
+2010-03-16 05:26:16 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/codemanagers/index.ctp, line 14]
+2010-03-16 05:39:56 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: elfrank
+Aco: Groupmanagers in [CORE/cake/libs/controller/components/acl.php, line 239]
+2010-03-16 05:46:39 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/groupmanagers/index.ctp, line 14]
+2010-03-16 06:48:45 Warning: Warning (2): mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in [APP/views/pages/home.ctp, line 17]
+2010-03-16 06:48:45 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/pages/home.ctp, line 18]
+2010-03-16 06:49:20 Warning: Warning (2): mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in [APP/views/pages/home.ctp, line 17]
+2010-03-16 06:49:20 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/pages/home.ctp, line 18]
+2010-03-16 06:49:58 Warning: Warning (2): mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in [APP/views/pages/home.ctp, line 17]
+2010-03-16 06:49:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/pages/home.ctp, line 18]
+2010-03-16 06:50:41 Warning: Warning (2): mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in [APP/views/pages/home.ctp, line 17]
+2010-03-16 06:50:41 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/pages/home.ctp, line 18]
+2010-03-16 06:50:57 Warning: Warning (2): mysql_fetch_array(): supplied argument is not a valid MySQL result resource in [APP/views/pages/home.ctp, line 17]
+2010-03-16 06:50:58 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/pages/home.ctp, line 18]

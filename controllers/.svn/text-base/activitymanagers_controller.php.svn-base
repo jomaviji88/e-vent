@@ -1,0 +1,87 @@
+<?php
+/**
+ * Controller for full administration of users 
+ *
+ * This file will render views from views/usermanager/
+ *
+ * PHP versions 4 and 5
+ *
+ * Copyright 2008, Aran Johnson http://www.aranworld.com
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright		Copyright 2008, Aran Johnson http://www.aranworld.com
+ * @version			1.0
+ * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+class ActivitymanagersController extends AppController
+{
+	var $name = 'Activitymanagers';
+	var $uses = array('Activity');
+	
+
+	function add()
+	{
+		$this->loadModel('User');
+		$this->loadModel('Contenttypes');
+		$optionsType = $this->Contenttypes->find('list',array('fields' => 'name'));
+		$optionsStatus = array('open'=> 'Abierto', 'closed' => "Cerrado");
+		$optionsUsers = $this->User->find('list',array('fields' => 'name'));
+        $this->set(compact('optionsType', 'optionsStatus', 'optionsSites', 'optionsUsers'));
+        if (!empty($this->data)) {   
+            if ($this->Activity->save($this->data)) {
+            	$lastId = $this->Activity->getLastInsertId();
+            	$this->redirect('/activitymanagers/view/'.$lastId);
+                
+            } else {
+				
+			}
+        }
+        
+	}
+
+	function delete( $id = null)
+	{
+	    $this->User->id = $id;
+		$this->data = $this->User->read();
+	    if( !( isset($this->params['url']['confirm']) ) ){
+        	$this->flash( 'Click below to confirm deletion of '.$this->data['User']['name'].'.', '/usermanager/delete/'.$id.'/?confirm=1', 120 );		
+    	} else {
+    		if( $this->User->del($id) ){
+				$this->flash( $this->data['User']['name'].' has been deleted.', '/usermanager/index' );
+			} 
+    	}
+	}
+
+	function edit($id = null)
+	{ 
+		if (empty($this->data)) {
+	        $this->Activity->id = $id;
+	        $this->data = $this->Activity->read();
+	    } else {
+	        if ($this->Activity->save($this->data)) {
+	            $this->flash('Tus cambios han sido guardados.','/activitymanager/view/'.$this->data['Activity']['id'] );
+	        }
+	    }
+
+	}
+
+	function index()
+	{
+		$activities = $this->Activity->find('list',array('fields' => 'Activity.short_name'));
+		$this->set(compact('activities'));
+	}
+	
+	function view($id = null)
+	{
+
+        $this->Activity->id = $id;
+        $activity = $this->Activity->read();
+        $this->pageTitle = 'Actividades';
+        $this->set(compact('activity'));
+		
+	}	    
+}
+?>

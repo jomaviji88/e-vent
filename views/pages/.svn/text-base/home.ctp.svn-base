@@ -1,0 +1,28 @@
+<h1>Welcome to the Kitchen</h1>
+
+<p>This is a demonstration site whose source code is meant to primarily illustrate usage of CakePHP's built-in ACL and Authentication Components.</p>
+
+<p>Some elements of this site have been simplified so that emphasis is placed on usage of ACL and Authentication, so one should not use this for a
+publicly accessible website "as-is".</p>
+
+<p>This site has no official connection with the CakePHP development team.  <a href="http://book.cakephp.org/">CakePHP's Official Manual</a> 
+is continually improving, and is becoming a great resource for developers.  At the same time, 
+the <a href="http://api.cakephp.org/1.2/">Official API Docs</a> is 
+a great go-to guide for help with specific syntax.</p>
+
+<h3>What You Need To Already Know:</h3>
+<ul>
+<li>Be familiar with installing and implementing a CakePHP installation.</li>
+<li>Must be able to use the command line based Cake Console</li>
+</ul>
+
+<h3>Versions Used:</h3>
+<ul>
+<li>This uses the latest checkout from the CakePHP SVN Repository:<br />
+https://svn.cakephp.org/repo/trunk/cake/1.2.x.x</li>
+<li>PHP 5+</li>
+<li>MySQL 4+</li>
+<li>Apache Http Server 2.2</li>
+</ul>
+
+<h3><a href="http://aranworld.com/article/161/cakephp-acl-tutorial-what-is-it">Visit an index of all tutorials related to this sample site and ACL and Authentication</a></h3>

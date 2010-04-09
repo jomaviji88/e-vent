@@ -1,0 +1,33 @@
+<h2>Edit User Record</h2>
+
+<form method="post" action="<?php echo $html->url('/usermanager/edit/'.$this->data['User']['id']); ?>">
+    <?php echo $form->hidden('User.id'); ?>
+
+	<?php echo $form->label('User.username'); ?>
+	<?php echo $form->error('User.username'); ?>
+	<?php echo $form->text('User.username', array('size' => '80' ) ); ?>
+
+    <?php echo $form->hidden('User.old_group_id'); ?>
+    <?php echo $form->label('User.group_id', 'User Group (listed according to access rights)' ); ?>
+    <?php echo $form->error('User.group_id', 'You must select a user group'); ?>
+    <?php echo $form->select('User.group_id', $userGroups, $form->value('User.group_id') ); ?>
+
+    <?php echo $form->label('User.name', 'User Full Name'); ?>
+    <?php echo $form->text('User.name', array('size' => '80')); ?>
+    <?php echo $form->error('User.name'); ?>
+
+    <?php echo $form->label('User.email', 'User E-mail'); ?>
+    <?php echo $form->text('User.email', array('size' => '80')); ?>
+    <?php echo $form->error('User.email'); ?>
+        
+	<?php echo $form->label('User.new_passwd', "New Password - case sensitive, 'IloveMyCat' DOES NOT EQUAL 'ilovemycat'"); ?>
+    <?php echo $form->error('User.new_passwd'); ?>
+    <?php echo $form->text('User.new_passwd',  array('type' => 'password', 'size' => '80') ); ?>
+
+	<?php echo $form->label('User.confirm_passwd', 'Re-type New Password'); ?>
+    <?php echo $form->text('User.confirm_passwd',  array('type' => 'password', 'size' => '80') ); ?>
+
+    <?php echo $form->submit('Save Changes'); ?>
+
+</form>
+

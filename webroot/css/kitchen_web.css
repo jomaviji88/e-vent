@@ -1,0 +1,49 @@
+html { padding: 0; margin: 0; font-family: "Trebuchet MS", "Helvetica", "sans-serif"; }
+
+body { background-color: #ffffff; margin: 0 auto; font-size: 100%; }
+
+p { font-size: .85em; }
+h1 { font-size: 1.2em; }
+img { border: none; }
+
+/* basic page layouts */
+div#layout_head { width: 800px; margin: 0 auto; background-color: #fff;}
+div#layout_content { width: 800px; padding: 10px 20px; margin: 0 auto; }
+div.clear {clear: both;}
+
+div#login_status { text-align: right; width: 100%; margin: 0; background-color: #000000; border-bottom: 1px solid #aaaaaa; }
+div#login_status p { color: #ffffff; margin: 0; padding: 0 0 3px 0; margin-right: 50px; }
+div#login_status p a,
+div#login_status p a:visited,
+div#login_status p a:active { color: #ffffff; }
+
+div#menu { float: left; }
+/* form elements */
+
+.form-instruction { margin: 0; font-size: 80%; padding: 0; }
+
+label { display: block; margin: 15px 0 5px 0; font-weight: bold; font-size: 1em;  }
+fieldset.checkbox { margin: 10px 0; clear: both; width: 70%; padding: 0;  }
+fieldset.checkbox label { margin: 0 0 0 10px; display: inline; font-weight: normal;  }
+fieldset.checkbox input[type=checkbox] {float: left; margin: 0; }
+
+fieldset {border: 0; padding: 0; margin: 10px 0; }
+fieldset legend { margin: 0; padding: 0; font-weight: bold; font-size: 1.1em; }
+fieldset label { font-weight: normal; margin: 0; }
+fieldset input[type=radio] { float: left; } 
+
+.error-message { font-weight: bold; color: #cc3300; }
+input[type=submit] { margin: 15px 0; font-size: 110%; }
+
+table.cake-sql-log { font-size: .75em; width: 100%; background-color: #000000; border-top: 1px solid #ffffff; color: #000000; }
+
+div#alert_messages { text-align: center; background-color: #fff; }
+
+/* matches image_classes */
+img.image_left { float: left; margin: 0 15px 20px 0; }
+img.image_right { float: right; margin: 0 0 20px 15px; }
+img.image_top { margin: 0 0 20px 0; clear: both; }
+
+td { background-color: #ffffff; padding: 2px 12px; text-align: left; }
+th { color: #cccccc; background-color: #000000; font-size: 90%; padding: 2px 5px; }
+

@@ -1,0 +1,36 @@
+<p><a href="/usermanager/index">Regresar al listado completo de Usuarios</a></p>
+
+<h1>Agregar Nuevo Usuario</h1>
+
+<form method="post" action="<?php echo $html->url('/usermanager/add')?>">
+	<?php echo $form->hidden('User.active', array('value'=>'1') ); ?>
+    
+    <?php echo $form->label('User.name', 'Nombre Completo'); ?>
+        <?php echo $form->error('User.name'); ?>
+        <?php echo $form->text('User.name', array('size' => '80') ); ?>
+
+
+    <?php echo $form->label('User.email', 'E-mail'); ?>
+        <?php echo $form->error('User.email'); ?>
+        <?php echo $form->text('User.email', array('size' => '80') ); ?>
+
+  
+    <?php echo $form->label('User.username', 'Nombre de Usuario (s—lo letras y nœmeros).' ); ?>
+        <?php echo $form->error('User.username', 'Debes introducir un nombre de usuario.'); ?>
+        <?php echo $form->text('User.username', array('size' => '80') ); ?>
+        
+    <?php echo $form->label('User.new_passwd', 'Password (Su longitud debe ser de 7-20 caracteres)' ); ?>
+        <?php echo $form->error('User.new_passwd'); ?>
+        <?php echo $form->text('User.new_passwd',  array('type' => 'password', 'size' => '80') ); ?>
+        
+    <?php echo $form->label('User.confirm_passwd', 'Confirma tu Password' ); ?>
+        <?php echo $form->error('User.confirm_passwd'); ?>
+        <?php echo $form->text('User.confirm_passwd',  array('type' => 'password', 'size' => '80') ); ?>
+
+    <?php echo $form->label('User.group_id', 'Grupo de Usuario' ); ?>
+        <?php echo $form->error('User.group_id', 'Debes seleccionar un grupo de usuario'); ?>
+        <?php echo $form->select('User.group_id', $userGroups, $form->value('User.group_id') ); ?>
+
+<?php echo $form->submit('Crear Nuevo Usuario'); ?>
+
+</form>

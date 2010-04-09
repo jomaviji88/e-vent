@@ -1,0 +1,31 @@
+<div id="solocolumn">
+
+<div id="page_header">
+<h1>Index of Site Users</h1>
+</div>
+
+<div id="primary">
+
+<table>
+<tr>
+<th>Name</th>
+<th>Group</th>
+<th>Username</th>
+<th>E-mail</th>
+</tr>
+
+<?php foreach( $user_list as $user ): ?>
+<tr>
+<td><a href="<?php echo
+$html->url('/usermanager/view/'.$user['User']['id']); ?>"><?php echo $user['User']['name']; ?></a></td>
+<td><?php echo $user['Group']['name']; ?></td>
+<td><?php echo $user['User']['username']; ?></td>
+<td><?php echo $user['User']['email']; ?></td>
+</tr>
+<?php endforeach; ?>
+
+</table>
+
+</div>
+
+</div>

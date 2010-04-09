@@ -1,0 +1,278 @@
+<?php
+/* SVN FILE: $Id: app_controller.php 4410 2007-02-02 13:31:21Z phpnut $ */
+/**
+ * Short description for file.
+ *
+ * This file is application-wide controller file. You can put all
+ * application-wide controller-related methods here.
+ *
+ * PHP versions 5
+ *
+ * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
+ * Copyright 2005-2007, Cake Software Foundation, Inc.
+ *								1785 E. Sahara Avenue, Suite 490-204
+ *								Las Vegas, Nevada 89104
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright		Copyright 2005-2007, Cake Software Foundation, Inc.
+ * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+ * @package			cake
+ * @subpackage		cake.cake
+ * @since			CakePHP(tm) v 0.2.9
+ * @version			$Revision: 4410 $
+ * @modifiedby		$LastChangedBy: phpnut $
+ * @lastmodified	$Date: 2007-02-02 07:31:21 -0600 (Fri, 02 Feb 2007) $
+ * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+/**
+ * This is a placeholder class.
+ * Create the same file in app/app_controller.php
+ *
+ * Add your application-wide methods in the class below, your controllers
+ * will inherit them.
+ *
+ * @package		cake
+ * @subpackage	cake.cake
+ */
+class AppController extends Controller {
+
+	/**
+	 * 'Acl' needs to be requested prior to 'Auth'
+	 */
+	public $components = array('Acl', 'Auth', 'Cookie');
+	public $helpers = array('Html', 'Form');
+
+    /**
+	 * provides default page title in case custom is not created within controller
+	 */
+	public $pageTitle = '10û Congreso Internacional de Sistemas Computacionales | 18, 19 y 20 de Marzo';
+
+    /**
+     * Provides access for actions which most often do not require any access control. 
+     */
+	public $allowedActions = array('index', 'view', 'display');
+
+    /**
+     * By default all actions are denied.  However, sometimes we
+     * want to deny the actions allowed by default, so you can use
+     * this class attribute in sub classes to deny an index, view or display action
+     */
+    public $deniedActions = array();
+
+    /*
+     * where to go after a successful login?
+     */
+	public $loginRedirect = '/';
+
+    /**
+     * username of logged in user. 
+     *
+     */
+	public $loggedUser = null;
+    
+    /**
+	 * Determines if a user can use the remember me feature of the Users/login function
+	 *
+	 */
+	public $allowCookie = TRUE;
+
+	/**
+	 * Determines length of time that the cookie will be valid.
+	 *
+	 * If a value is here, but allowCookie is FALSE, then the term value is ignored.
+	 */
+	public $cookieTerm = '+4 weeks';
+
+	/**
+	 * Name to use for cookie holding user values
+	 */
+	public $cookieName = 'User';
+
+	/**
+	 * Configures the items that appear on the site's menu
+	 */
+	var $menuItems = array(
+	    /*
+array(
+		    'restricted' => FALSE, 
+			'label' => 'Kitchen News',
+			'controller' => 'Articles',
+			'crud' => 'read',
+			'url' => '/articles/index'
+			),
+		array(
+		    'restricted' => TRUE,
+			'label' => 'Secret Recipes',
+			'controller' => 'SecretRecipes',
+			'crud' => 'read',
+			'url' => '/secret_recipes/index'
+			),
+*/
+		array(
+		    'restricted' => TRUE,
+			'label' => 'User Manager',
+			'controller' => 'Usermanagers',
+			'crud' => 'read',
+			'url' => '/usermanagers/index'
+			),
+		array(
+		    'restricted' => TRUE,
+			'label' => 'Group Manager',
+			'controller' => 'Groupmanagers',
+			'crud' => 'read',
+			'url' => '/Groupmanagers/index'
+			),
+		array(
+			'restricted' => TRUE,
+			'label' => 'Activity Manager',
+			'controller' => 'Activitymanagers',
+			'crud' => 'read',
+			'url' => '/activitymanagers/index'
+			),
+		array(
+			'restricted' => TRUE,
+			'label' => 'Schedule Manager',
+			'controller' => 'Schedulemanagers',
+			'crud' => 'read',
+			'url' => '/schedulemanagers/index'
+			),
+		array(
+			'restricted' => TRUE,
+			'label' => 'Team Manager',
+			'controller' => 'Teammanagers',
+			'crud' => 'read',
+			'url' => '/teammanagers/index'
+			),
+		array(
+			'restricted' => TRUE,
+			'label' => 'Code Manager',
+			'controller' => 'Codemanagers',
+			'crud' => 'read',
+			'url' => '/codemanagers/index'
+			),
+		);
+
+	var $adminLinks = array(
+	    'index' => array('add'),
+		'view' => array('edit', 'delete')
+		);
+    /**
+	 * Holds data used to build site menu
+	 */
+	var $menu = array();
+ 	
+	function beforeFilter() {
+        $cookie = null;
+
+        // first tell Auth which actions do not need any access control
+        foreach( $this->allowedActions as $allowAction ){
+		    $this->Auth->allow( $allowAction );
+		}
+        // now tell Auth which actions require authentication
+		foreach( $this->deniedActions as $denyAction ){
+		    $this->Auth->deny( $denyAction );
+		}
+		$this->checkAuth();
+		if( !$this->__setLoggedUserValues() && ($cookie = $this->Cookie->read( $this->cookieName ) ) ){
+	        $this->Auth->login($cookie);
+			$this->__setLoggedUserValues();
+		}	
+	}
+
+	function beforeRender(){
+	    $this->__buildMenu();
+	}
+
+    /**
+     * Sets a value for current logged user that is easily accessed by rest of application.
+     * @returns boolean TRUE if there is a logged user FALSE if no user is logged in.
+     */
+    function __setLoggedUserValues(){
+	    $user = null;
+		if( $user = $this->Auth->user() ){
+            $this->set('User', $user[$this->Auth->userModel]);
+            $this->loggedUser = $user[$this->Auth->userModel][$this->Auth->fields['username']];
+			return TRUE;
+		} else {
+		    return FALSE;
+		}
+	}
+
+    /**
+     * Sets configuration options for Auth component.
+     *
+     * @access public
+     */
+    function checkAuth(){
+		if (isset($this->Auth)) {
+		    $this->Auth->autoRedirect = FALSE;
+			$this->Auth->mapActions(array('display'=>'read') );
+
+			// Change the default field names for the username and password 
+			$this->Auth->fields = array('username' => 'username', 'password' => 'passwd');
+
+			// this sets the 
+			$this->Auth->loginAction = '/users/login';
+			// Where do we go after a successful login?
+			$this->Auth->loginRedirect = $this->loginRedirect;
+			// what type of authorization setup are we using
+			$this->Auth->authorize = 'crud';
+			// What to say when the login was incorrect.
+			$this->Auth->loginError = 'Sorry, login failed.  Either your username or password are incorrect.';
+			$this->Auth->authError = 'The page you tried to access is restricted. You have been redirected to the page below.';
+		}  
+
+    }
+
+    /**
+     * Builds a menu adding restricted links, if user is logged in.
+     * @access private
+     * @returns null
+     */
+	function __buildMenu(){
+	    $this->menu = array();
+	    foreach( $this->menuItems as $menuLink ){
+		    if( $menuLink['restricted'] ){
+		        if( $this->loggedUser && $this->Acl->check( $this->loggedUser, $menuLink['controller'], $menuLink['crud'] ) ){
+			        $this->menu[] = array('label' => $menuLink['label'], 'url' => $menuLink['url']);
+			    } else {
+				    continue;
+				}
+			} else {
+			    $this->menu[] = array('label' => $menuLink['label'], 'url' => $menuLink['url']);
+			}
+		}
+		$this->__buildAdminMenu();
+		$this->set('kitchen_menu', $this->menu);
+
+	}
+
+    /**
+     * Adds standard links to admin functions depending on logged in user's permissions.
+     *
+     * @access private
+     * @returns null
+     */
+    function __buildAdminMenu(){
+	    if( isset( $this->adminLinks[ $this->params['action'] ] ) ){
+		    foreach( $this->adminLinks[ $this->params['action'] ] as $action ){
+			    $crud = $this->Auth->actionMap[ $action ];
+				$controllerName = Inflector::camelize($this->params['controller']);
+			    if( $this->loggedUser && $this->Acl->check( $this->loggedUser, $controllerName, $crud ) ){
+				    if( ( $action == 'edit' || $action == 'delete' ) && isset($this->params['pass'][0]) ){
+					    $actionMod = '/'.$this->params['pass'][0];
+					} else {
+					    $actionMod = null;
+					}
+				    $this->menu[] = array('label' => $action, 'url' => '/'.$this->params['controller'].'/'.$action.$actionMod);
+				}
+			}
+		}
+	}
+	    
+	    
+}
+?>
